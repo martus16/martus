@@ -14,34 +14,51 @@ body {
 .top {  max-widtx;
   margin: 0 auto;
   padding: 0 16px;
-  text-align: ;
   background-repeat: no-repeat;
   background-position: left;
   color: #000080;
   max-width: 2000px;
   ;
 }
+
 .page-top {
-  background-color: #FFDEAD;
-  padding: 0px 0px 40px 0px;
+  background-color: #C0C0C0;
+  padding: 0px 0px 80px 0px;
 }
 .container {
   max-width: 928px;
   margin: 0 auto;
   padding: 0 16px;
   vertical-align: top;
+
+}
+.text  {
+ width:  100%; /* Ширина таблицы */
+ border-spacing: 0; /* Расстояние между ячейками */
+}
+.text td {
+ width: 30%; /* Ширина ячеек */
+ vertical-align: top; /* Выравнивание по верхнему краю */
+}
+.midcol {
+  text-align: center;
+  padding-top: 100px;
+}
+.rightcol { /* Правая ячейка */
+ text-align: right; /* Выравнивание по правому краю */
+ padding-top: 100px;
 }
 .russia {
   text-align: left;
   margin-top: 0px;
   margin-left: 50px;
-  background-image: url("russia.svg");
+  background-image: url("russia.sv");
   background-repeat: no-repeat;
 }
 
 .page-header {
-  margin: 0 0 180px;
-  padding: 32px 0 32px;
+  margin: 0 0 0px;
+  padding: 0px 0 32px;
 }
 
 .page-header .container,
@@ -52,17 +69,22 @@ body {
 
 .page-header a {
   margin-left: 56px;
-  color: #fea18d;
+  color: #EC2D01;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
 }
-
+.back-page{
+  font-size: 40px;
+  font-weight: 500;
+}
 .header-email {
   padding-left: 30px;
   background-image: url("icon-email.svg");
   background-repeat: no-repeat;
   background-position: left;
+  text-align: justify;
+  font-size: 18px;
 }
 
 .header-phone {
@@ -70,6 +92,7 @@ body {
   background-image: url("icon-phone.svg");
   background-position: left;
   background-repeat: no-repeat;
+  font-size: 18px;
 }
 
 .hero-image {
@@ -78,6 +101,7 @@ body {
   background-repeat: no-repeat;
   background-size:cover;
   padding-top: 250px;
+  text-decoration: none;
   ;
 
 }
@@ -98,6 +122,12 @@ body {
   padding-top: 40px;
   padding-right: 00px;
   margin-bottom: 200px;
+  text-decoration: none;
+  color: #EC2D01;
+}
+a{
+  text-decoration: none;
+  color: #EC2D01;
 }
 
 .hero-image p {
@@ -108,7 +138,10 @@ body {
 
 .intro {
   margin: 0 0 120px;
-  padding-top: 200px
+  padding-top: 10px
+}
+h1 {
+  text-align: center;
 }
 
 .subheading {
