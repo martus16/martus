@@ -6,7 +6,7 @@ body {
   line-height: 32px;
   color: #black;
   background-color: #ffffff;
-  background-image: url("img/background-2.png");
+  background-image: url("background-2.png");
   background-repeat: repeat;
   background-position: top center;
 }
@@ -35,7 +35,7 @@ body {
   text-align: left;
   margin-top: 0px;
   margin-left: 50px;
-  background-image: url("img/russia.svg");
+  background-image: url("russia.svg");
   background-repeat: no-repeat;
 }
 
@@ -60,21 +60,21 @@ body {
 
 .header-email {
   padding-left: 30px;
-  background-image: url("img/icon-email.svg");
+  background-image: url("icon-email.svg");
   background-repeat: no-repeat;
   background-position: left;
 }
 
 .header-phone {
   padding-left: 30px;
-  background-image: url("img/icon-phone.svg");
+  background-image: url("icon-phone.svg");
   background-position: left;
   background-repeat: no-repeat;
 }
 
 .hero-image {
   margin-bottom: 0px;
-  background-image: url("img/city.jp");
+  background-image: url("city.jp");
   background-repeat: no-repeat;
   background-size:cover;
   padding-top: 250px;
@@ -147,11 +147,11 @@ body {
 }
 
 .skill-html {
-  background-image: url("img/icon-html.svg");
+  background-image: url("icon-html.svg");
 }
 
 .skill-css {
-  background-image: url("img/icon-css.svg");
+  background-image: url("icon-css.svg");
 }
 
 .level {
@@ -226,10 +226,10 @@ body {
 
 .footer-email {
   padding-left: 30px;
-  background-image: url("img/icon-email.svg");
+  background-image: url("icon-email.svg");
 }
 
 .footer-phone {
   padding-left: 25px;
-  background-image: url("img/icon-phone.svg");
+  background-image: url("icon-phone.svg");
 }
