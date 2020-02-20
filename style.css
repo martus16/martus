@@ -1,15 +1,19 @@
 body {
   margin: 0;
   min-width: 960px;
+  max-width: 2000px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
-  color: #black;
-  background-color: #ffffff;
-  background-image: url("background-2.png");
+  color: #ffffff;
+  background-color: #1f2124;
+  background-image: url("backgroun.png");
   background-repeat: repeat;
   background-position: top center;
+
 }
+
+
 
 .top {  max-widtx;
   margin: 0 auto;
@@ -18,42 +22,122 @@ body {
   background-position: left;
   color: #000080;
   max-width: 2000px;
+
   ;
 }
+header {
 
+  }
+  .flex {
+    display: flex;
+    justify-content:;
+
+    background-image: url(background_header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 140px;
+    font-family: BrusDi;
+
+  }
+  .header_1 {
+    flex-basis: 8%;
+
+    margin-bottom: 80px;
+    width: 150px;
+    padding-left: 80px;
+  }
+  .header_2 {
+  flex-basis: 15%;
+
+  font-size: 70px;
+  padding: 20px ;
+  padding-right: 30px;
+  text-align:left;
+  }
+  .header_3  {
+    flex-basis: 21%;
+
+
+  }
+  .header_4 {
+flex-basis: 15%;
+
+padding: 50px ;
+font-size: 50px;
+text-align: right;
+
+  }
+  .header_5 {
+flex-basis: 25%;
+
+padding: 50px ;
+font-size: 50px;
+text-align: center;
+  }
+  .header_6 {
+    flex-basis: 15%;
+
+    padding: 50px ;
+    font-size: 50px;
+    text-align: center;
+  }
+
+.background_page {
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+
+}
 .page-top {
-  background-color: #C0C0C0;
-  padding: 0px 0px 80px 0px;
+  /*background-color: #C0C0C0;*/
+  padding: 0px 0px 0px 0px;
+  background-image: url("background_header.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-image; url("background.png");
 }
 .container {
   max-width: 928px;
   margin: 0 auto;
   padding: 0 16px;
   vertical-align: top;
+  line-height: 2;
+
+
 
 }
-.text  {
- width:  100%; /* Ширина таблицы */
- border-spacing: 0; /* Расстояние между ячейками */
-}
-.text td {
- width: 30%; /* Ширина ячеек */
- vertical-align: top; /* Выравнивание по верхнему краю */
-}
-.midcol {
-  text-align: center;
-  padding-top: 100px;
-}
-.rightcol { /* Правая ячейка */
- text-align: right; /* Выравнивание по правому краю */
- padding-top: 100px;
-}
-.russia {
-  text-align: left;
-  margin-top: 0px;
-  margin-left: 50px;
-  background-image: url("russia.sv");
-  background-repeat: no-repeat;
+.heading_1_page {
+  text-shadow:
+		-0   -2px 0   #000000,
+		 0   -2px 0   #000000,
+		-0    2px 0   #000000,
+		 0    2px 0   #000000,
+		-2px -0   0   #000000,
+		 2px -0   0   #000000,
+		-2px  0   0   #000000,
+		 2px  0   0   #000000,
+		-1px -2px 0   #000000,
+		 1px -2px 0   #000000,
+		-1px  2px 0   #000000,
+		 1px  2px 0   #000000,
+		-2px -1px 0   #000000,
+		 2px -1px 0   #000000,
+		-2px  1px 0   #000000,
+		 2px  1px 0   #000000,
+		-2px -2px 0   #000000,
+		 2px -2px 0   #000000,
+		-2px  2px 0   #000000,
+		 2px  2px 0   #000000,
+		-2px -2px 0   #000000,
+		 2px -2px 0   #000000,
+		-2px  2px 0   #000000,
+		 2px  2px 0   #000000;
+     padding-right: 25%
+
 }
 
 .page-header {
@@ -74,9 +158,13 @@ body {
   background-repeat: no-repeat;
   background-position: left;
 }
+
+
 .back-page{
   font-size: 40px;
   font-weight: 500;
+  margin-right: 90px;
+  text-align: left;
 }
 .header-email {
   padding-left: 30px;
@@ -100,7 +188,7 @@ body {
   background-image: url("city.jp");
   background-repeat: no-repeat;
   background-size:cover;
-  padding-top: 250px;
+
   text-decoration: none;
   ;
 
@@ -110,45 +198,123 @@ body {
   max-width: 1408px;
   text-align: center;
 }
-
+.hero-image {
+  padding-top: 200px;
+}
 .heading {
   margin: 0 0 40px;
-  font-size: 80px;
-  line-height: 96px;
+  margin-left: -130px;
+  font-size: 100px;
+  text-align: left;
+  line-height: 120px;
+  font-family: BrusDi;
+  padding-top: 0px;
+  width: 1000px;
+  padding-top: 100px;
+}
+.heading_1 {
+  margin-left: -130px;
+  font-size: 100px;
+  text-align: left;
+  line-height: 120px;
+  font-family: BrusDi;
+  padding-top: 0px;
+}
+.heading_text {
+  margin-top: 80px;
+  margin-left: -130px;
+  text-align: left;
+  font-size: 30px;
+  line-height: 50px;
+  width: 1300px;
 }
 .about {
   font-size: 30px;
   text-align: center;
-  padding-top: 40px;
-  padding-right: 00px;
+  padding-top: 150px;
+  padding-right: 0px;
   margin-bottom: 200px;
   text-decoration: none;
-  color: #EC2D01;
+  color: #ffffff;
+
 }
 a{
   text-decoration: none;
-  color: #EC2D01;
+  color: #ffffff;
 }
 
-.hero-image p {
-  margin: 0;
-  font-size: 32px;
-  line-height: 48px;
-}
+
 
 .intro {
   margin: 0 0 120px;
-  padding-top: 10px
+  margin-top:00px;
+  padding-top: 10px;
+
 }
 h1 {
   text-align: center;
+  font-size: 20px;
+  border: 3px solid;
+  border-radius: 30px;
+
 }
 
 .subheading {
   margin: 0 0 56px;
-  font-size: 56px;
-  line-height: 80px;
+  font-size: 70px;
+  line-height: 300px;
   text-align: center;
+  padding-top: 50px;
+
+
+}
+.about_text {
+  margin-top:00px;
+  font-size: 20px;
+  margin-bottom: 50px;
+  line-height: 2;
+  text-align: justify;
+  background-color: #
+
+}
+.about_list {
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 50px;
+
+}
+.about_background {
+  background-image: url("about_us.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 150px;
+
+}
+.contacts {
+  margin-top: 10px;
+  margin-bottom: 200px;
+}
+.contacts_flex {
+  margin-top: -100px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.contacts_info {
+  display: flex;
+  margin-left: 100px;
+  font-size: 25px;
+  line-height: 1.5;
+
+}
+.contacts_map {
+  display:  flex;
+  background-image: url("map2.pg");
+  margin-left: 300px;
+
+}
+.contacts_list {
+  margin-bottom: 50px;
 }
 
 .user-image {
@@ -168,11 +334,64 @@ h1 {
   margin: 0 0 32px;
 }
 
+.page_1_text {
+  max-width: 1000px;
+  text-align: left;
+  max-width: 928px;
+  margin: 0 auto;
+  padding: 0 16px;
+  vertical-align: top;
+  line-height: 1.7;
+  font-size: 20px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
 .skills-list {
   margin: 0;
   padding: 0;
 }
 
+.background_price{
+  background-image: url("background_price.png");
+
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 100px;
+  padding-top: 100px;
+
+}
+.price {
+  text-shadow:
+		-0   -2px 0   #000000,
+		 0   -2px 0   #000000,
+		-0    2px 0   #000000,
+		 0    2px 0   #000000,
+		-2px -0   0   #000000,
+		 2px -0   0   #000000,
+		-2px  0   0   #000000,
+		 2px  0   0   #000000,
+		-1px -2px 0   #000000,
+		 1px -2px 0   #000000,
+		-1px  2px 0   #000000,
+		 1px  2px 0   #000000,
+		-2px -1px 0   #000000,
+		 2px -1px 0   #000000,
+		-2px  1px 0   #000000,
+		 2px  1px 0   #000000,
+		-2px -2px 0   #000000,
+		 2px -2px 0   #000000,
+		-2px  2px 0   #000000,
+		 2px  2px 0   #000000,
+		-2px -2px 0   #000000,
+		 2px -2px 0   #000000,
+		-2px  2px 0   #000000,
+		 2px  2px 0   #000000;
+     padding-top: 50px;
+     font-size: 70px;
+     line-height: 300px;
+     text-align: center;
+
+}
 .skills-list dt {
   padding-left: 32px;
   background-repeat: no-repeat;
@@ -223,10 +442,25 @@ h1 {
   text-align: center;
 }
 
-.projects p {
+.projects  {
   margin: 0 0 24px;
 }
 
+.page_3_text {
+
+  max-width: 1000px;
+  text-align: left;
+  max-width: 928px;
+  margin: 0 auto;
+  padding: 0 16px;
+  vertical-align: top;
+  line-height: 2;
+  font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+  
+
+}
 .button {
   padding: 6px 20px;
   display: inline-block;
@@ -240,13 +474,18 @@ h1 {
 
 .page-footer {
   padding: 40px 0;
-  background-color: #FFDEAD;
+  background-color: #3d3f3e;
+  text-align: left;
+  padding-left: 600px;
+  max-height: 200px;
+
+
 
 }
 
 .page-footer a {
   margin-left: 56px;
-  color: #000080;
+  color: #fdffff;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -260,9 +499,13 @@ h1 {
 .footer-email {
   padding-left: 30px;
   background-image: url("icon-email.svg");
+  font-size: 20px;
+  margin-right:50px;
 }
 
 .footer-phone {
+
   padding-left: 25px;
+  font-size: 20px;
   background-image: url("icon-phone.svg");
 }
