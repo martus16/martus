@@ -5,8 +5,8 @@ body {
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
-  color: #ffffff;
-  background-color: #1f2124;
+  color: #black;
+  background-color: #fff;
   background-image: url("backgroun.png");
   background-repeat: repeat;
   background-position: top center;
@@ -31,8 +31,9 @@ header {
   .flex {
     display: flex;
     justify-content:;
+    background-color:#bbb;
 
-    background-image: url(background_header.png);
+    background-image: url(background_heade.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -211,6 +212,7 @@ text-align: center;
   padding-top: 0px;
   width: 1000px;
   padding-top: 100px;
+  color: #fff;
 }
 .heading_1 {
   margin-left: -130px;
@@ -219,6 +221,8 @@ text-align: center;
   line-height: 120px;
   font-family: BrusDi;
   padding-top: 0px;
+  color: #fff;
+
 }
 .heading_text {
   margin-top: 80px;
@@ -227,6 +231,7 @@ text-align: center;
   font-size: 30px;
   line-height: 50px;
   width: 1300px;
+  color: #fff;
 }
 .about {
   font-size: 30px;
@@ -346,49 +351,24 @@ h1 {
     margin-top: 200px;
     margin-bottom: 200px;
 }
+.page_1_white {
+  color: #fff;
+}
 .skills-list {
   margin: 0;
   padding: 0;
 }
 
 .background_price{
-  background-image: url("background_price.png");
 
-  background-repeat: no-repeat;
-  background-size: 100%;
-  padding-bottom: 100px;
-  padding-top: 100px;
 
 }
 .price {
-  text-shadow:
-		-0   -2px 0   #000000,
-		 0   -2px 0   #000000,
-		-0    2px 0   #000000,
-		 0    2px 0   #000000,
-		-2px -0   0   #000000,
-		 2px -0   0   #000000,
-		-2px  0   0   #000000,
-		 2px  0   0   #000000,
-		-1px -2px 0   #000000,
-		 1px -2px 0   #000000,
-		-1px  2px 0   #000000,
-		 1px  2px 0   #000000,
-		-2px -1px 0   #000000,
-		 2px -1px 0   #000000,
-		-2px  1px 0   #000000,
-		 2px  1px 0   #000000,
-		-2px -2px 0   #000000,
-		 2px -2px 0   #000000,
-		-2px  2px 0   #000000,
-		 2px  2px 0   #000000,
-		-2px -2px 0   #000000,
-		 2px -2px 0   #000000,
-		-2px  2px 0   #000000,
-		 2px  2px 0   #000000;
-     padding-top: 50px;
+  text-shadow:;
+
+
      font-size: 70px;
-     line-height: 300px;
+
      text-align: center;
 
 }
@@ -474,7 +454,7 @@ h1 {
 
 .page-footer {
   padding: 40px 0;
-  background-color: #3d3f3e;
+  background-color: #bbb;
   text-align: left;
   padding-left: 600px;
   max-height: 200px;

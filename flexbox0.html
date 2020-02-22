@@ -14,41 +14,42 @@
   margin-bottom: 10%;
 }
 .page-footer {
-  padding: 40px 0;
-  background-color: #3d3f3e;
-  text-align: left;
-  padding-left: 600px;
-  max-height: 200px;
-
+  padding: 1em 0;
+  background-color: #bbb;
+  text-align: right;
 
 
 }
 
 .page-footer a {
-  margin-left: 56px;
+  margin-left: em;
   color: #fdffff;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
 }
 .bot {
-  font-size: 10px;
-  line-height: 10px;
-  padding-top: 20px;
+  font-size: 0.8em;
+  line-height: 1em;
+  padding-top: 1em;
+  width: 30%;
+  margin-left: 60%
+
 }
 
 .footer-email {
-  padding-left: 30px;
+  padding-left: 2em;
   background-image: url("icon-email.svg");
-  font-size: 20px;
-  margin-right:50px;
+  font-size: 1.3em;
+  margin-right:4em;
 }
 
 .footer-phone {
 
-  padding-left: 25px;
-  font-size: 20px;
+  padding-left: 2em;
+  font-size: 1.3em;
   background-image: url("icon-phone.svg");
+  margin-right: 10%
 }
 .price_text {
   font-size: 2em;
@@ -69,30 +70,38 @@ body {
   background-position: top center;
 
 }
+.flex a {
+  color: #fff;
+  text-decoration: none;
+}
+.price_flex a {
+  text-decoration: none;
+}
 .flex {
   display: flex;
   justify-content:;
-  background-image: url(background_header.png);
+  background-image: url(background_heade.png);
+  background-color: #bbb;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-  height: 140px;
+  height: ;
   font-family: BrusDi;
+  color: #fff;
 
 }
 .header_1 {
   flex-basis: 8%;
 
-  margin-bottom: 80px;
-  width: 150px;
-  padding-left: 80px;
+  margin-bottom: 5em;
+  width: 9em;
+  padding-left: 5em;
 }
 .header_2 {
 flex-basis: 15%;
 
-font-size: 70px;
-padding: 20px ;
-padding-right: 30px;
+font-size: 4em;
+padding: 0.3em;
 text-align:left;
 }
 .header_3  {
@@ -103,23 +112,23 @@ text-align:left;
 .header_4 {
 flex-basis: 15%;
 
-padding: 50px ;
-font-size: 50px;
+padding: 1em ;
+font-size: 3em;
 text-align: right;
 
 }
 .header_5 {
 flex-basis: 25%;
 
-padding: 50px ;
-font-size: 50px;
+padding: 1em ;
+font-size: 3em;
 text-align: center;
 }
 .header_6 {
   flex-basis: 15%;
 
-  padding: 50px ;
-  font-size: 50px;
+  padding: 1em ;
+  font-size: 3em;
   text-align: center;
 }
 .background_page {
@@ -127,8 +136,7 @@ text-align: center;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-  padding-bottom: 150px;
-  padding-top: 500px;
+
 }
 .price_flex {
   display: flex;
@@ -137,6 +145,7 @@ text-align: center;
   text-align: center;
   align-content: flex-start;
   box-sizing: content-box;
+  background-color: #;
 }
 .price_1{
 
@@ -146,21 +155,25 @@ margin-left: 10%;
 line-height: 2;
 font-size: 1.5em;
 text-align: center;
+background-color: #;
 }
 .price_2{
-  border: 3px solid grey;
-min-width: 20%;
+  //border: 3px solid grey;
+min-width: 10%;
 margin-top: 5%;
 line-height: 2;
 font-size: 1.5em;
+background-color: #;
+
 }
 .price_3{
-  border: 3px solid grey;
-min-width: 20%;
+  //border: 3px solid grey;
+min-width: 10%;
 margin-right: 10%;
 margin-top: 5%;
 line-height: 2;
 font-size: 1.5em;
+background-color: #;
 }
 .sub-menu
 {
@@ -190,7 +203,7 @@ ul {
 <header>
       <div class="flex">
          <div class="header_1">
-           <a href="index.html"><img src="russia.svg"  style="margin-bottom:-80px; margin-top:  10px;  margin-left: -30px;" width="200" height="130"></a>
+           <a href="index.html"><img src="russia.svg"  style="margin-bottom:-5em; margin-top:  0.5em;  margin-left: -1em;" width="200" height="130"></a>
          </div>
 
          <div class="header_2">
@@ -266,15 +279,28 @@ ul {
             представление интересов поставщика в суде и в органах государственной власти
             и другие услуги по просьбе клиента.</p> </ul> </div>
 
+
 </section>
+<div id="sales">Купи меня! <input type="button" value="Купить" onclick="buy()" /></div>
+<script>
+var sales_div = document.getElementById("sales");
+function buy(){
+sales.innerHTML = 'Спасибо за покупку! <input type="button" value="Отменить покупку" onclick="cancel()" />';
+}
+function cancel(){
+sales.innerHTML = 'Купи меня! <input type="button" value="Купить" onclick="buy()" />';
+}
+
+</script>
+
 
 <footer class="page-footer">
   <div class="container">
     <a class="footer-email" href="mailto:martus16@list.ru"> martus16@list.ru</a>
     <a class="footer-phone" href="tel:89535289316"> 8-953-528-93-16 </a>
 
-    <div class="bot">Обращаем ваше внимание на то, что данный сайт носит исключительно<br> информационный характер
-     и не является публичной офертой, определяемой положениями<br> Статьи 437 Гражданского кодекса
+    <div class="bot">Обращаем ваше внимание на то, что данный сайт носит исключительно информационный характер
+     и не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса
       Российской Федерации </div>
 
   </div>
