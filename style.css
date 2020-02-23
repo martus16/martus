@@ -102,15 +102,20 @@ text-align: center;
   background-image; url("background.png");
 }
 .container {
-  max-width: 928px;
+
   margin: 0 auto;
   padding: 0 16px;
   vertical-align: top;
   line-height: 2;
-
-
-
 }
+@media (min-width: 1000px) {
+  .container2 {
+    font-size: 1em;
+    width: 100%;
+    
+  }
+}
+
 .heading_1_page {
   text-shadow:
 		-0   -2px 0   #000000,
@@ -340,9 +345,9 @@ h1 {
 }
 
 .page_1_text {
-  max-width: 1000px;
+
   text-align: left;
-  max-width: 928px;
+
   margin: 0 auto;
   padding: 0 16px;
   vertical-align: top;
