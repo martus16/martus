@@ -6,6 +6,7 @@ body {
   line-height: 2em;
   color: #black;
   width: 100%;
+  min-width: 1200px
 
 }
 .flex {
@@ -15,6 +16,7 @@ body {
   background-size: 100%;
   font-family: BrusDi;
   color: #fff;
+
 
 }
 .header_1 {
@@ -83,7 +85,7 @@ text-align: center;
   padding-bottom: 300px;
   color: white;
 }
-@media only screen and (max-width: 600px) {
+/*@media only screen and (max-width: 600px) {
   .heading_text {
     font-size: 10px;}
     .heading {
@@ -112,6 +114,7 @@ text-align: center;
     body { max-width: 800px;
     }
 }
+*/
 
 .intro {
   font-size: 18px;
