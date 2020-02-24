@@ -93,6 +93,9 @@ text-align: center;
       margin-left: 10px;
       font-size: 10px;
     }
+    body {
+      max-width: 600px;
+    }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 800px) {
@@ -104,6 +107,9 @@ text-align: center;
     .intro {
       margin-left: 10px;
       font-size: 10px;
+    }
+
+    body { max-width: 800px;
     }
 }
 
