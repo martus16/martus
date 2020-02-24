@@ -30,6 +30,7 @@ flex-basis: 15%;
 font-size: 4em;
 padding: 0.3em;
 text-align:left;
+font-weight: 00;
 }
 .header_3  {
   flex-basis: 10%;
@@ -64,11 +65,16 @@ text-align: center;
   background-repeat: no-repeat;
   margin-top:
 }
+
+.top {
+  max-width: 70%;
+}
 .heading {
   font-size: 70px;
   padding-top: 120px;
   margin-left: 50px;
   color: white;
+  font-weight: 600;
 }
 .heading_text{
   font-size: 20px;
@@ -77,6 +83,12 @@ text-align: center;
   padding-bottom: 300px;
   color: white;
 }
+@media only screen and (max-width: 600px) {
+  .heading_text {
+    font-size: 10px;}
+
+}
+
 .intro {
   font-size: 18px;
   width: 800px;
