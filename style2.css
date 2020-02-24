@@ -86,7 +86,25 @@ text-align: center;
 @media only screen and (max-width: 600px) {
   .heading_text {
     font-size: 10px;}
+    .heading {
+      font-size: 10px;
+    }
+    .intro {
+      margin-left: 10px;
+      font-size: 10px;
+    }
+}
 
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+  .heading_text {
+    font-size: 10px;}
+    .heading {
+      font-size: 10px;
+    }
+    .intro {
+      margin-left: 10px;
+      font-size: 10px;
+    }
 }
 
 .intro {
