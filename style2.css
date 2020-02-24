@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+
+  line-height: 2em;
+  color: #black;
+  width: 100%;
+
+}
+.flex {
+  display: flex;
+  justify-content:;
+  background-color: #bbb;
+  background-size: 100%;
+  font-family: BrusDi;
+  color: #fff;
+
+}
+.header_1 {
+  flex-basis: 8%;
+
+  margin-bottom: 5em;
+  width: 9em;
+  padding-left: 1em;
+}
+.header_2 {
+flex-basis: 15%;
+
+font-size: 4em;
+padding: 0.3em;
+text-align:left;
+}
+.header_3  {
+  flex-basis: 10%;
+
+
+}
+.header_4 {
+flex-basis: 15%;
+
+padding-top: 1.3em ;
+font-size: 2.5em;
+text-align: center;
+
+}
+.header_5 {
+flex-basis: 25%;
+
+padding: 1.3em ;
+font-size: 2.5em;
+text-align: center;
+}
+.header_6 {
+  flex-basis: 15%;
+
+  padding: 1.3em ;
+  font-size: 2.5em;
+  text-align: center;
+}
+.background_page {
+  background-image: url("background.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-top:
+}
+.heading {
+  font-size: 70px;
+  padding-top: 120px;
+  margin-left: 50px;
+  color: white;
+}
+.heading_text{
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding-bottom: 300px;
+  color: white;
+}
+.intro {
+  font-size: 18px;
+  width: 800px;
+  text-align: justify ;
+  margin-left: 300px;
+
+  margin-bottom: 100px;
+}
+.intro_start {}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+h3 {
+
+}
+.intro_end {
+  border: 5px solid grey;
+}
+
+.page-footer {
+  padding: 40px 0;
+  background-color: #bbb;
+  text-align: left;
+  padding-left: 600px;
+  max-height: 200px;
+}
+
+.page-footer a {
+  margin-left: 56px;
+  color: #fdffff;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.bot {
+  font-size: 10px;
+  line-height: 10px;
+  padding-top: 20px;
+}
+
+.footer-email {
+  padding-left: 30px;
+  background-image: url("icon-email.svg");
+  font-size: 20px;
+  margin-right:50px;
+}
+
+.footer-phone {
+
+  padding-left: 25px;
+  font-size: 20px;
+  background-image: url("icon-phone.svg");
+}
