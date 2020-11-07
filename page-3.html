@@ -16,6 +16,20 @@
 
   <body>
     <header>
+      <div class="header_adaptive">
+        <div class="header_adaptive_name">  <a href="index.html">Госзакупки <br/> Карелии</a></div>
+        <div class="header_adaptive_burger">
+          <div class="menu-icon">
+           <span></span>
+           <span></span>
+           <span></span>
+
+         </div>
+
+         <script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+         <script src="js/script.js"></script>
+        </div>
+      </div>
           <div class="flex">
              <div class="header_1">
              <!--<a href="index.html"><img class="header_rus" src="russia.svg"  style="margin-bottom:-5em; margin-top:  0.5em;  margin-left: -1em;" width="200" height="130"></a>
@@ -38,6 +52,15 @@
              </div>
            </div>
     </header>
+    <div class="burger_active">
+      <div class="burger_activ_menu">
+      <a href="index.html"> Главная</a>
+       <a href="index.html"> </a>
+       <a href="page-2.html">О нас </a>
+       <a href="page-3.html"> Тарифы и услуги </a>
+       <a href="page-4.html">Контакты </a>
+     </div>
+    </div>
 <section class="price">
   <div class="price_header"> <h2>Наши услуги </h2></div>
   <div class="price_text"> Наша компания оказывает услуги по тендерному
@@ -45,24 +68,24 @@
      юридическую поддержку, а так же помогает начинающим предпринимателям получить
       гранты на развитие бизнеса </div>
       <div class="price_flex">
-        <div class="2 price_1">  <a href="box" onclick="openbox('box'); return false"> <img src="paper.png" width="150em"><br/>Тендерное<br/> сопровождение </a>
+        <div class="2 price_1">  <a href="box" onclick="openbox('box'); return false"> <img class="image_page_3"src="paper.png"><br/>Тендерное<br/> сопровождение </a>
          </div>
-           <div class="2 price_2"><a href="box2" onclick="openbox2('box2'); return false"> <img src="shield.png" width="150em"> <br/> Разовые <br/> услуги</a>
+           <div class="2 price_2"><a href="box2" onclick="openbox2('box2'); return false"> <img class="image_page_3" src="shield.png"> <br/> Разовые <br/> услуги</a>
             </div>
-            <div class="2 price_2"><a href="box4" onclick="openbox4('box4'); return false"> <img src="bank.png" width="150em"> <br/> Банковские <br/> Гарантии </a>
+            <div class="2 price_2"><a href="box4" onclick="openbox4('box4'); return false"> <img class="image_page_3" src="bank.png"> <br/> Банковские <br/> Гарантии </a>
              </div>
-              <div class="2 price_3"><a href="box3" onclick="openbox3('box3'); return false"> <img src="new-man.png" width="150em"> <br/>Начинающим<br/> предпринимателям</a>
+              <div class="2 price_3"><a href="box3" onclick="openbox3('box3'); return false"> <img class="image_page_3" src="new-man.png"> <br/>Начинающим<br/> предпринимателям</a>
               </div>
 
-
+  </div>
     </section>
 
 <!--Тарифы на тендерное поспровождение -->
 
-    </div>
+
     <div id="box" class="price_list" style="display:none">
 
-        <div class="price_list_text"> <h3> Тендерное сопровождение </h3>
+        <div class="price_list_text"> <h4> Тендерное сопровождение </h4>
           <div class="border-price"></div>
       Основным направлением нашей деятельности является оказание услуг тендерного сопровождения.
     Мы берем на себя не только все функции полноценного тендерного отдела, но и юридического отдела.
@@ -99,7 +122,7 @@
 
     <div id="box2" class="price_list" style="display:none">
       <section class="escort">
-       <h3> Тарифы на разовые услуги</h3>
+       <h4> Тарифы на разовые услуги</h4>
           <div class="border-price"></div>
 
 
@@ -239,7 +262,7 @@
 
     <div id="box4" class="price_list" style="display:none">
 
-        <div class="price_list_text"> <h3> Банковские гарантии </h3>
+        <div class="price_list_text"> <h4> Банковские гарантии </h4>
           <div class="border-price"></div>
       <div class="price_warranty"> В соответствии с 44-ФЗ и 223-ФЗ заказчик устанавливает требование о предоставлении обеспечения
       исполнения контракта и обеспечение исполнения гарантийных обязательств. Поставщик обязан либо перечислить
@@ -262,7 +285,7 @@
   </div>
 
     <div id="box3" class="price_list" style="display:none">
-      <h3>Начинающим предпринимателям</h3>
+      <h4>Начинающим предпринимателям</h4>
       <div class="border-price"></div>
       <div class="price_list_text">
       Участие в закупочных процедурах не требует опыта работы, выиграть свой первый госконтракт можно уже
@@ -271,7 +294,7 @@
       субсидии на развитие бизнеса. Максимальный размер субсидий - 250 тысяч рублей. А чтобы ничего
       не отвелкало Вас от развития бизнеса, мы возьмем на себя всю налоговую и бухгалтерскую  отчетность.
     </div>
-      <h3>Услуги начинающим предпринимателям:</h3>
+      <h4>Услуги начинающим предпринимателям:</h4>
       <div class="border-price"></div>
       <div class="price_list_text">
       <ul>
