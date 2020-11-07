@@ -1691,6 +1691,20 @@ z-index: 3;
     padding-left: 10%;
     padding-top: 50px;
   }
+  .bot {
+      font-size: 8px;
+      padding-left: 30px;
+      line-height: 10px;
+      padding-top: 10px;
+  }
+/*footer*/
+.page-footer a {
+  margin-left: 30px;
+  color: #fdffff;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+  }
 }
 @media only screen and (max-width: 375px) {
   .background_page {
@@ -1732,6 +1746,19 @@ z-index: 3;
     font-size: 12px;
     line-height: 1.8
   }
+  .about_background {
+    background-image: url(about_us.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 150px;
+  }
+  .about_header {
+    font-size: 40px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+  }
   /*page3*/
   .price_1 {
     font-size: 9px;
@@ -1751,7 +1778,7 @@ z-index: 3;
   }
   .contacts_map_375  {
     display: block;
-    padding-left: 10%;
+    padding-left: 5%;;
     padding-top: 30px;
 
   }
