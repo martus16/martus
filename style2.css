@@ -1,7 +1,7 @@
 body {
   margin: 0;
 
-  font-family: "Montserrat", Helvetica, Arial, "Century Gothic", sans-serif;
+  font-family: "Montserrat", "HelveticaNeue", Arial, "Century Gothic", sans-serif;
 
   line-height: 2em;
   color: #black;
@@ -1670,7 +1670,7 @@ z-index: 3;
     font-size: 15px;
   }
   .description {
-    width: 90%;
+    width: 92%;
     font-size: 10px;
     line-height: normal;
     padding-left: 1px;
