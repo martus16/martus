@@ -1570,7 +1570,7 @@ z-index: 3;
     margin-top: 00px;
   }
   .page-footer a {
-    margin-left: 55px;
+    margin-left: 35px;
     color: #fdffff;
     text-decoration: none;
     background-repeat: no-repeat;
@@ -1773,7 +1773,7 @@ z-index: 3;
   }
 /*footer*/
 .page-footer a {
-  margin-left: 30px;
+  margin-left: 10px;
   color: #fdffff;
   text-decoration: none;
   background-repeat: no-repeat;
@@ -2003,7 +2003,7 @@ z-index: 3;
     padding-left: 0%;
   }
   .page-footer a {
-    margin-left: 30px;
+    margin-left: 20px;
   }
   .bot {
     padding-left: 30px;
